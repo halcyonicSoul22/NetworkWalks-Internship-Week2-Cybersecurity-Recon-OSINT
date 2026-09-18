@@ -20,15 +20,15 @@ The activities covered web and domain reconnaissance, DNS enumeration, OSINT, em
 
 # 🔎 Module 1 – Web & Domain Reconnaissance
 
-This module focused on basic reconnaissance and information gathering using different security tools in Kali Linux.
+This module focused on basic web and domain reconnaissance using different security tools.
 
 ## Task 1 – WHOIS
 
-Used WHOIS to obtain publicly available domain registration information.
+Used WHOIS to find publicly available domain registration details.
 
-### Screenshot
+### Evidence
 
-![WHOIS](screenshots/module-1/module-1-whois.png)
+![WHOIS](module-1-whois.png)
 
 ---
 
@@ -36,19 +36,19 @@ Used WHOIS to obtain publicly available domain registration information.
 
 Used WhatWeb to fingerprint the technologies and frameworks used by a target website.
 
-### Screenshot
+### Evidence
 
-![WhatWeb](screenshots/module-1/module-1-whatweb.png)
+![WhatWeb](module-1-whatweb.png)
 
 ---
 
 ## Task 3 – Nslookup
 
-Used `nslookup` to resolve a domain name and identify its associated IP information.
+Used `nslookup` to resolve a domain name and identify its associated IP address.
 
-### Screenshot
+### Evidence
 
-![Nslookup](screenshots/module-1/module-1-nslookup.png)
+![Nslookup](module-1-nslookup.png)
 
 ---
 
@@ -62,19 +62,19 @@ Used `curl -I` to inspect HTTP response headers from an authorized target.
 curl -I <authorized-domain>
 ```
 
-### Screenshot
+### Evidence
 
-![cURL HTTP Headers](screenshots/module-1/module-1-curl-headers.png)
+![cURL HTTP Headers](module-1-curl-headers.png)
 
 ---
 
 ## Task 5 – WAFW00F
 
-Used WAFW00F to detect and identify the presence of a Web Application Firewall.
+Used WAFW00F to detect whether a Web Application Firewall could be identified for the target.
 
-### Screenshot
+### Evidence
 
-![WAFW00F](screenshots/module-1/module-1-wafw00f.png)
+![WAFW00F](module-1-wafw00f.png)
 
 ---
 
@@ -82,9 +82,9 @@ Used WAFW00F to detect and identify the presence of a Web Application Firewall.
 
 Used DNSRecon to enumerate available DNS records for an authorized target.
 
-### Screenshot
+### Evidence
 
-![DNSRecon](screenshots/module-1/module-1-dnsrecon.png)
+![DNSRecon](module-1-dnsrecon.png)
 
 ---
 
@@ -96,7 +96,7 @@ This module focused on publicly available information and search-engine-based re
 
 Researched publicly exposed security-camera resources as part of the assigned cybersecurity research exercise.
 
-The exercise helped demonstrate how improperly secured devices and publicly indexed resources can become discoverable through search engines.
+The exercise demonstrated how improperly secured devices and publicly indexed resources can become discoverable through search engines.
 
 > Sensitive camera URLs and target information are intentionally **not published in this repository**.
 
@@ -116,7 +116,7 @@ This exercise provided practical exposure to search-engine reconnaissance and id
 
 ## Task 1 – Maltego Installation
 
-Downloaded and installed **Maltego** on a Windows computer.
+Downloaded and installed Maltego on a Windows computer.
 
 ## Task 2 – Email Reconnaissance
 
@@ -128,9 +128,9 @@ networkwalks.com
 
 Maltego was used to explore relationships between the domain and publicly available information.
 
-### Screenshot
+### Evidence
 
-![Maltego](screenshots/module-3/module-3-maltego.png)
+![Maltego](module-3-maltego.png)
 
 > Sensitive email addresses and other potentially identifiable information have been redacted from the public documentation.
 
@@ -166,9 +166,9 @@ The exercise focused on identifying publicly available:
 * Subdomains
 * Related domain information
 
-### Screenshot
+### Evidence
 
-![theHarvester Baidu](screenshots/module-4/module-4-theharvester-baidu.png)
+![theHarvester Baidu](module-4-theharvester-baidu.png)
 
 ---
 
@@ -188,11 +188,11 @@ Result limit:
 50
 ```
 
-The purpose was to compare information gathered from multiple passive reconnaissance sources.
+The purpose was to practice passive reconnaissance using multiple available sources.
 
-### Screenshot
+### Evidence
 
-![theHarvester All Sources](screenshots/module-4/module-4-theharvester-all-sources.png)
+![theHarvester All Sources](module-4-theharvester-all-sources.png)
 
 > Collected email addresses and other sensitive reconnaissance results have been excluded or redacted from this public repository.
 
@@ -206,9 +206,9 @@ This module focused on discovering live hosts within an authorized local network
 
 Used Zenmap to generate a visual representation of the discovered network topology and saved the output as a PDF.
 
-### Screenshot
+### Evidence
 
-![Network Topology](screenshots/module-5/module-5-network-topology.png)
+![Network Topology](module-5-network-topology.png)
 
 ---
 
@@ -232,7 +232,7 @@ Used Zenmap to generate a visual representation of the discovered network topolo
 
 # 🎯 Skills Practiced
 
-Through these practical exercises, I gained hands-on experience with:
+Through these practical exercises, I gained hands-on exposure to:
 
 * 🔍 Web and domain reconnaissance
 * 🌐 DNS enumeration
@@ -249,32 +249,29 @@ Through these practical exercises, I gained hands-on experience with:
 
 ---
 
-# 📂 Repository Structure
+# 📂 Repository Contents
 
 ```text
 NetworkWalks-Internship-Week2-Cybersecurity-Recon-OSINT/
 │
 ├── README.md
 │
-└── screenshots/
-    │
-    ├── module-1/
-    │   ├── module-1-whois.png
-    │   ├── module-1-whatweb.png
-    │   ├── module-1-nslookup.png
-    │   ├── module-1-curl-headers.png
-    │   ├── module-1-wafw00f.png
-    │   └── module-1-dnsrecon.png
-    │
-    ├── module-3/
-    │   └── module-3-maltego.png
-    │
-    ├── module-4/
-    │   ├── module-4-theharvester-baidu.png
-    │   └── module-4-theharvester-all-sources.png
-    │
-    └── module-5/
-        └── module-5-network-topology.png
+├── module-1-whois.png
+├── module-1-whatweb.png
+├── module-1-nslookup.png
+├── module-1-curl-headers.png
+├── module-1-wafw00f.png
+├── module-1-dnsrecon.png
+│
+├── module-3-maltego.png
+│
+├── module-4-theharvester-baidu.png
+├── module-4-theharvester-all-sources.png
+│
+├── module-5-local-ip-subnet.png
+├── module-5-live-hosts.png
+├── module-5-ip-mac-addresses.png
+└── module-5-network-topology.png
 ```
 
 ---
@@ -308,7 +305,7 @@ Set up a cybersecurity testing environment using VirtualBox and Kali Linux.
 
 **Reconnaissance, OSINT & Network Discovery**
 
-Practiced web reconnaissance, DNS enumeration, OSINT, email and subdomain discovery, and local network discovery using industry-relevant tools.
+Practiced web reconnaissance, DNS enumeration, OSINT, email and subdomain discovery, and local network discovery using various cybersecurity tools.
 
 ---
 
