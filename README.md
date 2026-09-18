@@ -130,7 +130,7 @@ Maltego was used to explore relationships between the domain and publicly availa
 
 ### Evidence
 
-![Maltego](module-3-maltego.png)
+![Maltego](module-3-maltego.PNG)
 
 > Sensitive email addresses and other potentially identifiable information have been redacted from the public documentation.
 
@@ -208,7 +208,7 @@ Used Zenmap to generate a visual representation of the discovered network topolo
 
 ### Evidence
 
-![Network Topology](module-5-network-topology.png)
+![Network Topology](module-5-network-topology.PNG)
 
 ---
 
@@ -268,9 +268,6 @@ NetworkWalks-Internship-Week2-Cybersecurity-Recon-OSINT/
 ├── module-4-theharvester-baidu.png
 ├── module-4-theharvester-all-sources.png
 │
-├── module-5-local-ip-subnet.png
-├── module-5-live-hosts.png
-├── module-5-ip-mac-addresses.png
 └── module-5-network-topology.png
 ```
 
